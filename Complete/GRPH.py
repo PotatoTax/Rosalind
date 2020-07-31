@@ -1,7 +1,7 @@
 # Overlap Graphs
 from Utilities.FASTALoader import load
 
-data = load("../rosalind_grph.txt")
+data = load("../Resources/rosalind_grph.txt")
 
 keys = [k for k in data.keys()]
 

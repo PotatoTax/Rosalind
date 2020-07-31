@@ -1,7 +1,7 @@
 # Consensus and Profile
 from Utilities.FASTALoader import load
 
-data = load('../rosalind_cons.txt')
+data = load('../Resources/rosalind_cons.txt')
 
 profile = []
 

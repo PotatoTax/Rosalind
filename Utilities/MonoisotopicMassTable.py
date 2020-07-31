@@ -6,7 +6,7 @@ def mass(isotope):
     if not table:
         table = {}
 
-        with open('../monoisotopicMassTable', 'r') as file:
+        with open('../Resources/monoisotopicMassTable', 'r') as file:
             lines = file.readlines()
 
             for line in lines:

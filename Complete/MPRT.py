@@ -3,7 +3,7 @@ from Utilities.FASTALoader import load
 
 proteins = []
 
-with open('../rosalind_mprt.txt', 'r') as file:
+with open('../Resources/rosalind_mprt.txt', 'r') as file:
     proteins = [a for a in file.readlines()]
 
     for i in range(len(proteins)):

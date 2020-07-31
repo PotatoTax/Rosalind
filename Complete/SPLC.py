@@ -5,7 +5,7 @@ from Utilities.DNA_to_RNA import DNA_to_RNA
 s = None
 introns = []
 
-with open("../rosalind_splc.txt", 'r') as file:
+with open("../Resources/rosalind_splc.txt", 'r') as file:
     lines = file.readlines()[1:]
     s = ""
     while not lines[0].startswith('>'):

@@ -5,7 +5,7 @@ def protein_from_rna(rna):
     global table
 
     if not table:
-        with open('../codonTable', 'r') as file:
+        with open('../Resources/codonTable', 'r') as file:
             lines = file.readlines()
 
             table = {}

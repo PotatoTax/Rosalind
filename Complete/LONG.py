@@ -1,7 +1,7 @@
 # Genome Assembly as Shortest Superstring
 from Utilities.FASTALoader import load
 
-strings = [a for a in load('../rosalind_long.txt').values()]
+strings = [a for a in load('../Resources/rosalind_long.txt').values()]
 
 while len(strings) > 1:
     max_o = 0

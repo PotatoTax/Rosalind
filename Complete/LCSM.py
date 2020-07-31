@@ -1,7 +1,7 @@
 # Finding a Shared Motif
 from Utilities.FASTALoader import load
 
-data = load('../rosalind_lcsm.txt')
+data = load('../Resources/rosalind_lcsm.txt')
 
 keys = [k for k in data.keys()]
 

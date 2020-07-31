@@ -4,7 +4,7 @@ sequence = "MACRYCGYKSDTQFMMGVEWAADGTSANLEAICRFNEASQYCHAPPNNVQDLMFVRWEVSWGSNTCLP
 
 counter = {}
 
-with open('../codonTable', 'r') as file:
+with open('../Resources/codonTable', 'r') as file:
     lines = file.readlines()
 
     for l in lines:
